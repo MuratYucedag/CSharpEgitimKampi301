@@ -29,5 +29,6 @@ namespace CSharpEgitimKampi301.EFProject
         public virtual DbSet<Guide> Guide { get; set; }
         public virtual DbSet<Location> Location { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<Admin> Admin { get; set; }
     }
 }
