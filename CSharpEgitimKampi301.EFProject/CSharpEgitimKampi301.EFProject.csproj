@@ -73,6 +73,12 @@
     <Compile Include="FrmNewLocation.Designer.cs">
       <DependentUpon>FrmNewLocation.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStatistics.Designer.cs">
+      <DependentUpon>FrmStatistics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Guide.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmNewLocation.resx">
       <DependentUpon>FrmNewLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStatistics.resx">
+      <DependentUpon>FrmStatistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
